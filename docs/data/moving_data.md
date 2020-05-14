@@ -2,7 +2,7 @@
 
 You might find yourself in the need to move data from a server inside of the SANBI network to your local machine, you vice versa.
 
-Since `gate.sanbi.ac.za` does not contain any user data (for security purposes), you will need to create a tunnel through gate to access a server inside of the SANBI network directly. To do this, use the following command:
+`gate.sanbi.ac.za` does contain user data, but it is read-only (for security purposes). You will not be able to copy your data to gate directly, so you will need to create a tunnel through gate to access a server inside of the SANBI network directly. To do this, use the following command:
 
 ```bash
 ssh -L<port_number>:queue.sanbi.ac.za:22 <username_of_gate>@gate.sanbi.ac.za
