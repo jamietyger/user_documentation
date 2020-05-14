@@ -21,8 +21,9 @@ The reverse can be done to place a file in the SANBI network:
 ```bash
 scp -P <port_number> <location_on_your_computer_to_place> <username_of_queue>@127.0.0.1:<remote_directory_or_file_to_copy>
 ````
+!> If you opt to copy a folder or directory, you have to include `-r` after the `scp` command to indicate to `scp` that it must copy the contents of the folder or directory in totality. So it should look like the following: `scp -r -P ...`.
 
-For example:
+## Example
 
 I want to copy a file `datafile.tar.gz` from my `/usr/people/edebeste` directory on the SANBI cluster. I would do the following:
 
@@ -47,3 +48,30 @@ You can ensure the data that you have copied is not corrupt by using the `md5sum
 - Run `md5sum <data_file>` and you will get a result of some string that contains letter and numbers after some time has passed.
 - Once the data is copied, go to the machine that the data was copied to and run the same `md5sum <data_file>` command on that machine.
 - If the data is copied with no corruption you should see the same string that contains letter and numbers as you saw before. **It should be 100% identical**.
+
+## Issues Solves
+
+You for some reason you find the following (or very similar) message during the steps above:
+
+```bash
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:FVnauAph+p2HOgfipGQBOi1KTq4JFcivYqvW7l2Pb/g.
+Please contact your system administrator.
+Add correct host key in /home/pvh/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/pvh/.ssh/known_hosts:731
+  remove with:
+  ssh-keygen -f "/home/pvh/.ssh/known_hosts" -R "[localhost]:1234"
+ECDSA host key for [localhost]:1234 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+```
+
+There are two variants of this message, depending on the operating system  you are using. If you get one like the above example, you can simply run the command that you're suggested to run. It starts with `ssh-keygen -f ...`. Once that's run, you should be able to run your `scp` command again with no issues.
+
+If you do not get a message with a suggested solution (`ssh-keygen -f ...`), then you will need to go to the following file: `/home/<your_username>/.ssh/known_hosts` and open it with a text editor. In there, you need to delete all the lines that start with `[127.0.0.1]` or `[localhost]` and you should be able to run the `scp` command again.
