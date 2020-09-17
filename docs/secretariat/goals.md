@@ -2,37 +2,25 @@
 
 **PHA4GE Project Outcomes**
 
-| Outcome                     | Outcome Description                                                                                                                          | Target          | Actual      | WG                   |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ----------- | -------------------- |
-| Number                      | Completion Date                                                                                                                              | Completion Date |
-| 0                           | [Establish PHA4GE website and internet presence (https://www.pha4ge.org, Github, Slack, and Twitter)](https://www.pha4ge.org/)               | Nov-19          | O5/2020     |                      |
-| 1                           | Complete hiring and onboarding of PHA4GE secretariat core team                                                                               | Feb-20          | May-20      |                      |
-| 2                           | Define communications strategy; release formal statement of intent; establish monthly cadence of publication and communications              | Mar-20          | In progress |                      |
-| 3                           | Establish PHA4GE Advisory/Steering Committee, and conduct first virtual meeting.                                                             | Mar-20          | Jun-20      |                      |
-| 4                           | Establish criteria and process for subgrant awards, engaging PHA4GE workgroups and advisory committee and issue first call for subgrants (4) | Apr-20          |             |                      |
-| 5                           | Critical assessment and improvement of the WHO guidelines for next generation sequencing                                                     | Jun-20          |             | 1\. Pipelines        |
-| 6                           | All four sub-grants initiated                                                                                                                | Aug-20          |             |                      |
-| 7                           | Identify and engage additional partners and sources of funding to sustain PHA4GE secretariat                                                 | Sep-20          |             |                      |
-| 8                           | National Public Health Institute (NPHI) able to configure a containerization-aware computational environment to analyze genomic data.        | Sep-20          |             | 1\. Data structures  |
-| 2\. Pipelines               |
-| 3\. Infrastructure          |
-| 9                           | Successful implementation of a reproducible analytical tool at a NPHI to identify pathogen drug resistant mutations.                         | 09//2020        |             | 1\. Pipelines        |
-| 2\. Infrastructure          |
-| 3\. Data structures         |
-| 4.Reference, QC, Validation |
-| 10                          | PHA4GE In-Person Meeting/Workshop at ASMNGS meeting in Washington DC                                                                         | Oct-20          |             |                      |
-| 11                          | Two to three papers, white papers or major recommendation documents released by PHA4GE workgroups.                                           | Nov-20          | In progress | 1\. Data structures  |
-| 2\. Pipelines               |
-| 3\. Infrastructure          |
-| 4\. Data sharing            |
-| 12                          | PHA4GE has plan in place for 5 years of sustainable funding, independent of continued BMGF investment                                        | Dec-20          |             |                      |
-| 13                          | PHA4GE In-Person Meeting/Workshop at ABPHM meeting in Hinxton UK                                                                             | Jun-21          |             |                      |
-| 14                          | Application of bioinformatics tools at Africa CDC regional centers (Nigeria, Zambia and Egypt) to inform public health interventions         | Sep-21          |             | 1\. Data structures, |
-| 2\. Pipelines               |
-| 3\. Infrastructure          |
-| 4\. Reference, QC           |
-| 15                          | Two to three papers, white papers or major recommendation documents released by PHA4GE workgroups.                                           | Oct-21          |             | All WGs?             |
-| 16                          | PHA4GE is independently supported by a range of funders and consortium members.                                                              | Dec-21          |             |                      |
+| OutcomeNumber | Outcome Description                                                                                                                          | Target Completion Date | Actual Completion Date | WG                                                                             |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ---------------------- | ------------------------------------------------------------------------------ |
+| 0             | [Establish PHA4GE website and internet presence (https://www.pha4ge.org, Github, Slack, and Twitter)](https://www.pha4ge.org/)               | Nov-19                 | O5/2020                |                                                                                |
+| 1             | Complete hiring and onboarding of PHA4GE secretariat core team                                                                               | Feb-20                 | May-20                 |                                                                                |
+| 2             | Define communications strategy; release formal statement of intent; establish monthly cadence of publication and communications              | Mar-20                 | In progress            |                                                                                |
+| 3             | Establish PHA4GE Advisory/Steering Committee, and conduct first virtual meeting.                                                             | Mar-20                 | Jun-20                 |                                                                                |
+| 4             | Establish criteria and process for subgrant awards, engaging PHA4GE workgroups and advisory committee and issue first call for subgrants (4) | Apr-20                 |                        |                                                                                |
+| 5             | Critical assessment and improvement of the WHO guidelines for next generation sequencing                                                     | Jun-20                 |                        | 1\. Pipelines                                                                  |
+| 6             | All four sub-grants initiated                                                                                                                | Aug-20                 |                        |                                                                                |
+| 7             | Identify and engage additional partners and sources of funding to sustain PHA4GE secretariat                                                 | Sep-20                 |                        |                                                                                |
+| 8             | National Public Health Institute (NPHI) able to configure a containerization-aware computational environment to analyze genomic data.        | Sep-20                 |                        | 1\. Data structures 2. Pipelines 3. Infrastructure                             |
+| 9             | Successful implementation of a reproducible analytical tool at a NPHI to identify pathogen drug resistant mutations.                         | 09//2020               |                        | 1\. Pipelines 2. Infrastructure 3. Data structures 4.Reference, QC, Validation |
+| 10            | PHA4GE In-Person Meeting/Workshop at ASMNGS meeting in Washington DC                                                                         | Oct-20                 |                        |                                                                                |
+| 11            | Two to three papers, white papers or major recommendation documents released by PHA4GE workgroups.                                           | Nov-20                 | In progress            | 1\. Data structures 2. Pipelines 3. Infrastructure 4. Data Sharing             |
+| 12            | PHA4GE has plan in place for 5 years of sustainable funding, independent of continued BMGF investment                                        | Dec-20                 |                        |                                                                                |
+| 13            | PHA4GE In-Person Meeting/Workshop at ABPHM meeting in Hinxton UK                                                                             | Jun-21                 |                        |                                                                                |
+| 14            | Application of bioinformatics tools at Africa CDC regional centers (Nigeria, Zambia and Egypt) to inform public health interventions         | Sep-21                 |                        | 1\. Data structures 2. Pipelines 3. Infrastructure 4. Reference, QC            |
+| 15            | Two to three papers, white papers or major recommendation documents released by PHA4GE workgroups.                                           | Oct-21                 |                        | All WGs?                                                                       |
+| 16            | PHA4GE is independently supported by a range of funders and consortium members.                                                              | Dec-21                 |                        |                                                                                |
 
 
 [Read the Doc](https://drive.google.com/file/d/1jgPWBfJaOCN9PssQdvWhBWfsQKokEi0U/view?usp=sharing).
